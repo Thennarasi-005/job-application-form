@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+            padding:30px;
+        }
+
+        .con{
+            width:80%;
+            margin:auto;
+        }
+
+        h1{
+            background:purple;
+            color:white;
+            padding:30px;
+        }
+
+        h2{
+            color:#b37bd8;
+            margin-top:30px;
+            margin-bottom:20px;
+        }
+
+        .row{
+            display:flex;
+            gap:40px;
+            margin-bottom:20px;
+        }
+
+        .box{
+            flex:1;
+        }
+
+        label{
+            display:block;
+            margin-bottom:8px;
+            font-weight:bold;
+        }
+
+        input,
+        textarea{
+            width:100%;
+            padding:12px;
+            border:1px solid black;
+            background:#f0eaf3;
+        }
+
+        textarea{
+            height:100px;
+            resize:none;
+        }
+
+        .certificate{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-top:30px;
+        }
+
+        .signature{
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="con">
+
+    <h1>JOB APPLICATION FORM</h1>
+
+    <div class="row" style="margin-top:30px;">
+        <div class="box">
+            <label>Position Applied For</label>
+        </div>
+
+        <div class="box">
+            <input type="text">
+        </div>
+    </div>
+
+    <h2>PERSONAL INFORMATION</h2>
+
+    <div class="row">
+        <div class="box">
+            <label>Full Name</label>
+            <input type="text">
+        </div>
+
+        <div class="box">
+            <label>Address</label>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="box">
+            <label>Phone Number</label>
+            <input type="number">
+        </div>
+
+        <div class="box">
+            <label>Email Address</label>
+            <input type="email">
+        </div>
+    </div>
+
+    <h2>EDUCATION</h2>
+
+    <div class="row">
+        <div class="box">
+            <label>School/Institution</label>
+            <input type="text">
+        </div>
+
+        <div class="box">
+            <label>Degree/Certification</label>
+            <input type="text">
+        </div>
+        <div class="box">
+            <label>Year Completed</label>
+            <input type="text">
+        </div>
+    </div>
+    <h2>RECENT EMPLOYMENT HISTORY</h2>
+    <div class="row">
+        <div class="box">
+            <label>Company Name</label>
+            <input type="text">
+        </div>
+        <div class="box">
+            <label>Position Held</label>
+            <input type="text">
+        </div>
+        <div class="box">
+            <label>Employment Dates</label>
+            <input type="text">
+        </div>
+    </div>
+    <h2>SKILLS & QUALIFICATIONS</h2>
+    <label>List relevant skills, certifications, or qualifications:</label>
+    <textarea></textarea>
+    <h2>REFERENCE</h2>
+    <div class="row">
+        <div class="box">
+            <label>Reference Name</label>
+            <input type="text">
+        </div>
+
+        <div class="box">
+            <label>Relationship</label>
+            <input type="text">
+        </div>
+
+        <div class="box">
+            <label>Phone Number</label>
+            <input type="number">
+        </div>
+    </div>
+    <div class="certificate">
+        <p>
+            I certify that the information provided in this
+            application is accurate and complete. I understand
+            that providing false information may result in
+            disqualification from consideration for employment.
+        </p>
+
+        <div class="signature">
+            <label>Applicant Signature</label>
+            <input type="text">
+        </div>
+    </div>
+</div>
+</body>
+</html>
